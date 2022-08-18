@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editNoticeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTitle"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:gravity="start"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/editNoticeText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/hintNotice"
+        android:padding="15dp"
+        android:inputType="text"
+        android:background="@color/white"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/editNoticeDate"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:gravity="start"
+        android:hint="@string/hintDate"
+        android:maxLength="10"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/editNoticeAutor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:gravity="start"
+        android:hint="@string/hintAutor"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/txtButtonPublish"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>
