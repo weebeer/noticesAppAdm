@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editNotice" type="id" />
+    <item name="editNoticeTitle" type="id" />
+    <item name="editNoticeText" type="id" />
+    <item name="editNoticeDate" type="id" />
+    <item name="editNoticeAutor" type="id" />
+</resources>
